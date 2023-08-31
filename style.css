@@ -791,7 +791,7 @@ input, textarea {
       input, textarea {
           border: none;
           font-size: 1rem;
-          max-width: 2rem;
+          max-width: 200px;
       }
       input:focus,
   textarea:focus {
