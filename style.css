@@ -1,0 +1,887 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: roboto;
+    color: #242020;
+    background-color: rgb(254,250,224);
+    background-color: rgb(89,109,96);
+}
+
+/* NAV and HEADER CSS */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: roboto;
+    top: 0;
+    width: 100%;
+    height: 15vh;
+    z-index: 2;
+    position: fixed;
+    overflow-y: hidden;
+    background-color: #A4AC86;
+    border-bottom: 1px solid #A4AC86;
+}
+
+.left-side {
+    display: flex;
+    margin-right: auto;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+}
+.left-side img {
+    display: flex;
+    width: auto;
+    max-height: 80px;
+    padding: 16px;
+}
+    .left-side a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: lighter;
+        padding-right: 10%;
+        font-size: 28px;
+        text-emphasis: none;
+        text-decoration: none;
+        letter-spacing: .08em;
+        color: #242020;
+        margin-right: auto;
+    }
+
+    .right-side {
+        padding-right: 5%;
+    }
+    .right-side ul {
+        display: flex;
+        margin-left: auto;
+        flex: 1 1 auto;
+    }
+        .right-side ul a {
+            display: flex;
+            font-size: 20px;
+            align-items: center;
+            justify-content: space-evenly;
+            padding: 16px;
+            margin-left: auto;
+            text-emphasis: none;
+            text-decoration: none;
+            color: black;
+            border-bottom: 1px solid #242020;
+            letter-spacing: .05em;
+        }
+
+        .left-side a:hover, .right-side a:hover {
+            /*color: #9e3504;*/
+            color: #b33a02;
+            letter-spacing: .15em;
+            transition: .5s;
+            border-bottom: 1px solid #000000;
+        }
+
+
+.mobile-display {
+    display: none;
+}
+
+.nav-mobile {
+    display: none;
+}
+
+/* hero portion styles */
+   .main /*.rotation*/ {
+    background-color: rgb(89,109,96);
+    padding-bottom: 30%;
+    padding-top: 30%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-image: url("main-images/tyler-nix-cold-coffee-unsplash.jpg");
+    max-height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    overflow: hidden;
+    
+}
+
+.main h2 {
+    font-size: 200%;
+    color: rgb(254,250,224);
+    /*color: rgb(34,34,34);*/
+    text-align: left;
+    margin-right: 70%;
+}
+
+.rotation {
+    background-color: rgb(89,109,96);
+    padding: 20%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+
+}
+
+.main2 h2 {
+    font-size: 200%;
+    color: rgb(34,34,34);
+    text-align: left;
+    margin-right: 60%;
+}
+
+/* css about */
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    background-color: rgb(89,109,96);
+    color: rgb(221, 220, 220);
+    padding-bottom: 5%;
+}
+
+.about-p {
+    text-align: left;
+    padding-right: 5%;
+}
+
+.bg-about {
+    background-image: url('coffee-images/jacob-bentzinger-coffee-unsplash.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    padding: 15%;
+    max-height: 500px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* contact */
+
+.contact {
+    padding: 10%;
+}
+
+/* social links, footer, and back to top button? */
+
+.footer {
+    padding: 2% 5% 2% 5%;
+    font-size: 100%;
+    color: rgb(236, 236, 236);
+    background-color: #242020;
+    border-top: 2px solid rgb(24, 43, 24);
+}
+
+/* utility classes */
+.padded-1 {  padding: 2rem;   }
+.padding-b {padding-bottom: 2%;}
+.bottom-p {padding-bottom: 6%;}
+.bottom-p2 {padding-bottom: 4%;}
+.bottom-p3 {padding-bottom: 0;}
+.padding-t {padding-top: 2%;}
+.right {text-align: right;}
+.center {text-align: center;}
+.left {text-align: left;}
+.margin-b {margin-bottom: 2%;}
+.margin-t {margin-top: 3%;}
+.line-height { line-height: normal;}
+
+.bg-light {
+    color: rgb(2, 70, 8);
+    background-color: rgb(254,250,224);
+}
+
+.bg-light h2 {
+    font-weight: lighter;
+    text-align: center;
+    font-size: 200%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    /*border-top: 1px solid rgb(89,109,96);
+    border-bottom: 1px solid rgb(89,109,96);*/
+}
+
+.bg-bean {
+    background-image: url('karsten-winegeart-coffee-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    color: rgb(229, 226, 226);
+    background-color: rgb(89,109,96);
+    overflow: hidden;
+    
+}
+/*
+.section {
+    column-count: 3;
+    column-gap: 5px;
+    padding: 0 2% 2% 2%;
+}*/
+
+.section h2 {
+    font-weight: lighter;
+}
+
+.bg-image {
+    background-size: cover;
+    background-position: center;
+    max-width: 50%;
+    padding: 15%;
+    border-radius: 10px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+  
+  }
+
+  .bg-img {
+    background-color: rgb(192, 192, 192);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .overlay {
+    min-height: 12rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+  }
+
+  .overlay2 {
+    min-height: 12rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+  }
+
+  .overlay h2, .overlay2 h2 {
+    font-size: 26px;
+  }
+
+  .img-div img {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: auto;
+    max-width: 100%;
+    max-height: 30vh;
+}
+
+.link {
+    color: white;
+}
+.link:hover {
+    color: rgb(255, 255, 255);
+}
+
+.clickable2 {
+    margin: 1em;
+    height: auto;
+    width: auto;
+    display: inline-block;
+    color: white;
+    border: 2px solid rgb(216, 215, 215);
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 1%;
+}
+.clickable2:hover {
+    background-color: rgba(80, 79, 79, 0.60);
+}
+
+input, textarea {
+    border-style: solid;
+    border: 2px solid rgb(192, 192, 192);
+    padding: 0.8em;
+    display: block;
+    width: 100%;
+    font-size: .5rem;
+    border-radius: 5px;
+  }
+  
+  input:focus,
+  textarea:focus {
+    outline: none;
+    border: 2px solid rgb(92, 138, 92);
+  }
+  
+  textarea {
+    min-height: 7em;
+    margin-bottom: 1em;
+  }
+  
+  form [class*=col-] {
+    padding: 5px;
+  }
+  
+  .email-signup input {
+    width: 30%;
+    display: inline-block;
+    max-width: 250px;
+    margin-top:1rem;
+  }
+  
+  form .button-solid {
+    width: 100%;
+    height: auto;
+    padding: 4%;
+    display: inline-block;
+    background-color: rgb(92, 138, 92);
+    color: rgb(223, 221, 221);
+    cursor: pointer;
+    box-shadow: none;
+    border: 2px solid rgb(192, 192, 192);
+    border-radius: 5px;
+  }
+  .button-solid:hover {
+      background-color: rgb(92, 170, 92);
+  }
+
+   
+/* SCROLL ANIMATION */
+  .aos {
+    position: relative;
+    top: 20px;
+    opacity: 0;
+    transition: 0.5s ease-out; 
+}
+
+.aos.active {
+    top: 0;
+    opacity: 1;
+    transform: translateY(-20px);
+    transition: .8s ease-in;
+}
+
+
+/* ---------------------- media queries ------------------------- */
+
+/* min-width queries (everything bigger from here!) */
+@media(min-width:766px) {
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+    }
+    .main h2 {
+        position: center;
+        font-size: 28px;
+    }
+}
+
+@media(min-width:1020px) {
+    .left-side a {
+        font-weight: lighter;
+        font-size: 28px;
+    }
+    
+    .main {
+        background-position: bottom;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+    }
+    .main h2 {
+        position: center;
+        font-size: 185%;
+    }
+    .clickable {
+        font-size: 90%;
+    }
+    .clickable2 {
+        font-size: 100%;
+    }
+    .bg-light h2 {
+        font-size: 34px;
+    }
+     input, textarea {
+         font-size: 1rem;
+     }
+     form .button-solid {
+    padding: 4%;
+     }
+
+     .right-side ul a {
+         font-size: 20px;
+     }
+    
+    .big-screen-h2 {
+        font-size: 200%;
+    }
+    .big-screen-p {
+        font-size: 90%;
+        line-height: 1.8em;
+    }
+    .pricing-name {
+        font-size: 90%;
+    }
+
+    .no-bullets {
+        font-size: 90%;
+    }
+
+    .overlay ul, .overlay2 ul {
+        font-size: 95%;
+    }
+
+    .overlay p, .overlay2 p {
+        font-size: 100%;
+    }
+    
+    .big-contact h2 {
+        font-size: 180%;
+    }
+    .big-contact p {
+        font-size: 100%;
+    }
+
+}
+
+@media(min-width:1600px) {
+
+    
+    .main {
+        background-position: bottom;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 75vh;
+    }
+    .main h2 {
+        position: center;
+        font-size: 34px;
+    }
+
+    .big-screen-h2 {
+        font-size: 32px;
+    }
+    .big-screen-p {
+        font-size: 22px;
+    }
+    .clickable, .clickable2 {
+        font-size: 20px;
+    }
+    .bg-light h2 {
+        font-size: 34px;
+    }
+     input, textarea {
+         font-size: 1.2rem;
+     }
+
+    .right-side ul a {
+        font-size: 22px;
+        padding: 26px;
+    }
+   
+   .pricing-name {
+       font-size: 22px;
+   }
+
+   .no-bullets {
+       font-size: 20px;
+   }
+   
+   .clickable {
+       font-size: 18px;
+   }
+
+   .overlay ul, .overlay2 ul {
+       font-size: 20px;
+   }
+
+   .overlay p, .overlay2 p {
+       font-size: 22px;
+   }
+
+   .overlay h2, .overlay2 h2 {
+       font-size: 32px;
+   }
+   
+   .big-contact h2 {
+       font-size: 32px;
+   }
+   .big-contact p {
+       font-size: 22px;
+   }
+
+    .big-footer p, .big-footer a {
+        font-size: 18px;
+    }
+
+    form .button-solid {
+        padding: 2%;
+    }
+}
+
+@media(min-width:1975px) {
+
+    .left-side a {
+        font-size: 34px;
+    }
+
+    .main {
+        height: 80vh;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main h2 {
+        position: center;
+        font-size: 40px;
+    }
+
+    .big-screen-h2 {
+        font-size: 38px;
+    }
+    .big-screen-p {
+        font-size: 22px;
+        line-height: 1.8em;
+        letter-spacing: .06em;
+    }
+    .big-about-p {
+        padding: 5%;
+        padding-right: 10%;
+        font-size: 20px;
+    }
+    .bg-light h2 {
+        font-size: 36px;
+    }
+     input, textarea {
+         font-size: 20px;
+     }
+
+     input, textarea {
+        padding: 1.2em;
+        display: block;
+        width: 80%;
+        font-size: 20px;
+      }
+      
+      textarea {
+        min-height: 6em;
+        margin-bottom: 1.4em;
+      }
+      
+      .email-signup input {
+        width: 300px;
+        display: inline-block;
+        max-width: 100%;
+        margin-top: 1rem;
+      }
+      
+      form .button-solid {
+        width: 80%;
+        max-height: 100%;
+        padding: 1.8%;
+        font-size: 22px;
+      }
+   
+   .pricing-name {
+       font-size: 25px;
+   }
+
+   .no-bullets {
+       font-size: 22px;
+       line-height: 1.5em;
+   }
+   
+   .clickable, .clickable2 {
+       font-size: 20px;
+   }
+
+   .overlay ul, .overlay2 ul {
+       font-size: 20px;
+       line-height: 1.6em;
+   }
+
+   .overlay p, .overlay2 p {
+       font-size: 22px;
+       line-height: 1.6em;
+       letter-spacing: .06em;
+   }
+
+   .overlay h2, .overlay2 h2 {
+       font-size: 32px;
+   }
+
+   .big-padding {
+       padding-left: 5%;
+       padding-right: 5%;
+   }
+   
+   .big-contact h2 {
+       font-size: 32px;
+       padding-left: 5%;
+   }
+   .big-contact p {
+       font-size: 24px;
+       padding-left: 5%;
+   }
+
+    .img-div img {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        width: auto;
+        max-height: 25vh;
+    }
+
+    .line-height { line-height: 2.5em;}
+
+}
+
+/* max-width medias, everything smaller from here! */
+
+@media(max-width:1000px) {
+    form .button-solid {
+        background-color: rgb(2, 70, 8);
+        border: 1px solid rgb(192, 192, 192);
+      }
+      form .button-solid:hover {
+        background-color: rgb(20, 99, 20);
+      }
+}
+
+@media(max-width:768px) {
+
+    #home .mobile-hide {
+        display: none;
+      }
+
+      .nav-mobile {
+        padding: 0;
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: none; 
+        border-bottom: 1px solid rgb(254,250,224);
+        background-color: rgb(89,109,96); /* rgb(94, 150, 182);*/
+        z-index: 2;
+    }
+    .nav-mobile img {
+        max-width: 100%;
+        max-height: 20vh;
+    }
+
+    .mobile-display {
+        display: inline-block;
+    }
+
+       /* DROPDOWN MENU FOR MOBILE */
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Stay on top */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 80px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    top: 0;
+    right: 0;
+    background-color: rgb(89,109,96);
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .dropbtn {
+    position: fixed;
+    top: 16%;
+    right: 3%;
+    font-size: 30px;
+    display: inline-block;
+    padding: 1.2% 2.4% 1.2% 2.4%;
+    background: rgb(89,109,96);
+    color: rgb(254,250,224);
+    transform: rotate(90deg);
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 2;
+    border: none;
+    box-shadow:5px 5px 15px -5px rgba(0, 0, 0, .4);
+    border-radius: 5px;
+}
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(254,250,224);
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #ec5f1d;
+    letter-spacing: .15em;
+    transition: .5s;
+  }
+
+/* ----- End of Dropdown Menu -----*/
+
+    .title {
+        color: rgb(236, 236, 236);
+        letter-spacing: .1em;
+        font-size: 170%;
+    }
+
+    .main {
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 65vh;
+    }
+
+    .main h2 {
+        position: center;
+        font-size: 1.5rem; /*at 200% prior*/
+        margin: 0;
+    }
+    
+    .email-signup input {
+      width: 100%;
+      max-width: 1.8rem; /*at 100% prior*/
+    }
+
+     form .button-solid {
+        width:100%;
+        padding: 10%;
+        font-size: 1.2rem;
+        background-color: rgb(2, 70, 8);
+        border: 1px solid rgb(192, 192, 192);
+      }
+      form .button-solid:hover {
+        background-color: rgb(20, 99, 20);
+      }
+
+      input, textarea {
+          border: none;
+          font-size: 1rem;
+      }
+      input:focus,
+  textarea:focus {
+    outline: none;
+    border: 1px solid rgb(2, 70, 8);
+  }
+
+    .card {
+        padding: 1rem;
+        height: auto;
+    }
+
+    .img-div {
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .fit-content {
+        padding: 10% 5% 15% 5%;
+    }
+        .padding-b {
+            padding-bottom: 8%;
+        }
+
+    .bg-sales {
+        padding: 10%;
+    }
+
+    .bg-light {
+        padding: 10%;
+    }
+
+    .bg-light h2 {
+        font-size: 150%;
+    }
+
+    .signup, .contact {
+        padding: 15%;
+    }
+
+    .about {
+        padding-top: 5%;
+        padding-right: 15%;
+        padding-left: 15%;
+    }
+
+    .bg-about {
+        padding: 40%;
+        margin-bottom: 8%;
+    }
+
+    img {
+        max-width: 100%;
+        max-height: 20vh;
+        margin: auto;
+    }
+
+  }
+
+  @media(max-width:320px) {
+
+    #home .mobile-hide {
+        display: none;
+      }
+
+      #home .mobile-display, nav {
+        display: block;
+      }
+
+    .title {
+        color: rgb(236, 236, 236);
+        letter-spacing: .1em;
+        font-size: 170%;
+    }
+
+    .main {
+        padding-top: 40%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main h2 {
+        position: center;
+        font-size: 28px;
+    }
+
+}
