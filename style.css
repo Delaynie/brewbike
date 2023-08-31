@@ -790,8 +790,8 @@ input, textarea {
 
       input, textarea {
           border: none;
-          font-size: 1rem;
-          max-width: 200px;
+          font-size: 1.3rem;
+          max-width: 350px;
       }
       input:focus,
   textarea:focus {
