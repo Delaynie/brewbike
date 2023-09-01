@@ -790,13 +790,26 @@ input, textarea {
       input, textarea {
           border: none;
           font-size: 1.3rem;
-          width: 250px;
+          width: 200px;
       }
       input:focus,
   textarea:focus {
     outline: none;
     border: 1px solid rgb(2, 70, 8);
   }
+
+}
+.mobile-form {
+    margin-top: 2%;
+    padding: 10%;
+    background-color: rgba(80, 79, 79, 0.60);
+}
+
+/*.bg-bean {
+    padding-left: 7%;
+    padding-right: 7%;
+    min-width: 100vw;
+}*/
 
     .card {
         padding: 1rem;
