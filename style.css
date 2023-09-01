@@ -245,7 +245,7 @@ body {
   }
 
   .bg-img {
-    background-color: rgb(192, 192, 192);
+    background-color: rgb(89,109,96);
     background-size: cover;
     background-position: center;
   }
@@ -891,13 +891,7 @@ input, textarea {
 
     }
     .bg-bean {
-        margin-left: 0;
-        margin-right: 0;
+        padding-left: 5%;
+        padding-right: 5%;
     }
-
-  .overlay2 {
-    padding-left: 4rem;
-    padding-right: 4rem;
-    
-  }
 }
