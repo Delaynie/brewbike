@@ -9,8 +9,7 @@
 body {
     font-family: roboto;
     color: #242020;
-    background-color: rgb(254,250,224);
-    background-color: rgb(89,109,96);
+    background-image: linear-gradient(rgb(89,109,96) 0%, rgb(89,109,96) 40%, #242020 100%);
 }
 
 /* NAV and HEADER CSS */
@@ -890,9 +889,16 @@ input, textarea {
         width: 300px;
 
     }
+    
+    .overlay2 {
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+    }
+
     .bg-bean {
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 7%;
+        padding-right: 7%;
         width: 100vw;
     }
 }
