@@ -791,7 +791,7 @@ input, textarea {
       input, textarea {
           border: none;
           font-size: 1.3rem;
-          max-width: 350px;
+          width: 250px;
       }
       input:focus,
   textarea:focus {
@@ -799,11 +799,11 @@ input, textarea {
     border: 1px solid rgb(2, 70, 8);
   }
 
-  /*.overlay2 {
+  .overlay2 {
     padding-left: 4rem;
     padding-right: 4rem;
     
-  }*/
+  }
 
     .card {
         padding: 1rem;
