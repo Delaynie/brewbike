@@ -886,19 +886,19 @@ input, textarea {
 
     input, textarea {
         padding-top: 2%;
-        width: 300px;
+        width: 250px;
 
     }
     
     .overlay2 {
-        padding-left: 0;
-        padding-right: 0;
-        margin: 0;
+        padding-left: 10%;
+        padding-right: 10%;
+        min-width: 100%;
     }
 
     .bg-bean {
         padding-left: 7%;
         padding-right: 7%;
-        width: 100vw;
+        min-width: 100vw;
     }
 }
