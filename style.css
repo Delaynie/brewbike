@@ -889,9 +889,8 @@ input, textarea {
         width: 250px;
 
     }
-    
-    .overlay2 {
-        display: none;
+    form {
+        background-color: rgba(80, 79, 79, 0.60);
     }
 
     /*.bg-bean {
