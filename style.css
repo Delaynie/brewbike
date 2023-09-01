@@ -886,10 +886,11 @@ input, textarea {
 
     input, textarea {
         padding-top: 2%;
-        width: 250px;
+        width: 200px;
 
     }
     form {
+        padding: 5%;
         background-color: rgba(80, 79, 79, 0.60);
     }
 
