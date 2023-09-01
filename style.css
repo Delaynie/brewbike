@@ -887,8 +887,12 @@ input, textarea {
 
     input, textarea {
         padding-top: 2%;
-        width: 200px;
+        width: 300px;
 
+    }
+    .bg-bean {
+        margin-left: 0;
+        margin-right: 0;
     }
 
   .overlay2 {
