@@ -159,13 +159,10 @@ body {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    max-width: 100%;
-    padding: 15%;
-    max-height: 500px;
+    max-width: 300px;
+    padding: 0;
+    
     border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
 }
 
 /* contact */
@@ -201,14 +198,14 @@ body {
 .bg-light {
     color: rgb(2, 70, 8);
     background-color: rgb(254,250,224);
+    
 }
 
 .bg-light h2 {
     font-weight: lighter;
     text-align: center;
-    font-size: 200%;
-    padding-top: 3%;
-    padding-bottom: 5%;
+    font-size: 40px;
+    padding: 3%;
     /*border-top: 1px solid rgb(89,109,96);
     border-bottom: 1px solid rgb(89,109,96);*/
 }
@@ -762,9 +759,9 @@ input, textarea {
         background-position: bottom;
         background-size: cover;
         background-repeat: no-repeat;
-        display: flex;
+        /*display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: center;*/
         height: 65vh;
     }
 
@@ -832,11 +829,12 @@ input, textarea {
     }
 
     .bg-light {
-        padding: 10%;
+        padding: 2%;
     }
 
     .bg-light h2 {
-        font-size: 150%;
+        font-size: 32px;
+        padding: 4%;
     }
 
     .signup /*.contact*/ {
@@ -845,8 +843,6 @@ input, textarea {
 
     .about {
         padding-top: 5%;
-        padding-right: 15%;
-        padding-left: 15%;
     }
 
     .bg-about {
