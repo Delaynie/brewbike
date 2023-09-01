@@ -893,5 +893,6 @@ input, textarea {
     .bg-bean {
         padding-left: 5%;
         padding-right: 5%;
+        width: 100vw;
     }
 }
