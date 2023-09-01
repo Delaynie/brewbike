@@ -790,7 +790,7 @@ input, textarea {
       input, textarea {
           border: none;
           font-size: 1.3rem;
-          width: 225px;
+          width: 200px;
       }
       input:focus,
   textarea:focus {
@@ -806,9 +806,10 @@ input, textarea {
 }
 
 .bg-bean {
-    padding-left: 7%;
-    padding-right: 7%;
-    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
 }
 
     .card {
