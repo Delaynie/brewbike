@@ -801,15 +801,16 @@ input, textarea {
 }
 .mobile-form {
     margin-top: 2%;
-    padding: 5%;
-    background-color: rgba(14, 14, 14, 0.6);
+    padding: 7%;
+    background-color: rgba(29, 29, 29, 0.6);
 }
 
 .bg-bean {
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 100vw;
 }
 
     .card {
