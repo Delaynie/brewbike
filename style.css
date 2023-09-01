@@ -891,14 +891,14 @@ input, textarea {
     }
     
     .overlay2 {
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 5rem;
+        padding-right: 5rem;
         min-width: 100%;
     }
 
-    .bg-bean {
+    /*.bg-bean {
         padding-left: 7%;
         padding-right: 7%;
         min-width: 100vw;
-    }
+    }*/
 }
