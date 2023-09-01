@@ -790,7 +790,7 @@ input, textarea {
       input, textarea {
           border: none;
           font-size: 1.3rem;
-          width: 200px;
+          width: 225px;
       }
       input:focus,
   textarea:focus {
@@ -805,11 +805,11 @@ input, textarea {
     background-color: rgba(80, 79, 79, 0.60);
 }
 
-/*.bg-bean {
+.bg-bean {
     padding-left: 7%;
     padding-right: 7%;
     min-width: 100vw;
-}*/
+}
 
     .card {
         padding: 1rem;
