@@ -154,14 +154,25 @@ body {
     padding-right: 5%;
 }
 
+.bg-drink {
+    background-image: url('coffee-images/jacob-bentzinger-coffee-unsplash.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    max-width: 350px;
+    padding: 15%;
+    border-radius: 10px;
+}
+
 .bg-about {
     background-image: url('coffee-images/jacob-bentzinger-coffee-unsplash.jpg');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    max-width: 300px;
-    padding: 0;
-    
+    width: 300px;
+    max-width: 350px;
+    padding: 15%;
     border-radius: 10px;
 }
 
@@ -687,6 +698,11 @@ input, textarea {
         display: inline-block;
     }
 
+    .about-p {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
        /* DROPDOWN MENU FOR MOBILE */
 
 /* The side navigation menu */
@@ -845,10 +861,7 @@ input, textarea {
         padding-top: 5%;
     }
 
-    .bg-about {
-        padding: 40%;
-        margin-bottom: 8%;
-    }
+    
 
     img {
         max-width: 100%;
