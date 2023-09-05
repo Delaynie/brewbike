@@ -703,16 +703,22 @@ input, textarea {
 
     .bg-about {
         padding: 25%;
+        height: 200px;
     }
 
     .bg-drink {
         padding: 25%;
+        height: 350px;
     }
 
     .about-p {
-        padding-top: 5%;
+        padding-top: 8%;
         padding-left: 8%;
         padding-right: 8%;
+    }
+
+    .big-padding {
+        padding-top: 10%;
     }
 
        /* DROPDOWN MENU FOR MOBILE */
