@@ -709,9 +709,7 @@ input, textarea {
     }
 
     .about-p {
-        padding-top: 8%;
-        padding-left: 8%;
-        padding-right: 8%;
+        padding: 15%;
     }
 
     .big-padding {
@@ -805,6 +803,10 @@ input, textarea {
     .email-signup input {
       width: 100%;
       max-width: 2rem; /*at 100% prior*/
+    }
+
+    .mobile-form {
+        padding-top: 8%;
     }
 
      form .button-solid {
