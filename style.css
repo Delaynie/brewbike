@@ -155,14 +155,16 @@ body {
 }
 
 .bg-drink {
-    background-image: url('coffee-images/jacob-bentzinger-coffee-unsplash.jpg');
+    background-image: url('daria-rudyk-cocoa-unsplash.jpg');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    width: 300px;
-    max-width: 350px;
+    height: auto;
+    width: auto;
     padding: 15%;
     border-radius: 10px;
+    /*box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);*/
+
 }
 
 .bg-about {
@@ -170,10 +172,11 @@ body {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    width: 300px;
-    max-width: 350px;
     padding: 15%;
     border-radius: 10px;
+    /*box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2);*/
+    height: auto;
+    width: auto;
 }
 
 /* contact */
@@ -698,9 +701,18 @@ input, textarea {
         display: inline-block;
     }
 
+    .bg-about {
+        padding: 25%;
+    }
+
+    .bg-drink {
+        padding: 25%;
+    }
+
     .about-p {
-        padding-left: 4%;
-        padding-right: 4%;
+        padding-top: 5%;
+        padding-left: 8%;
+        padding-right: 8%;
     }
 
        /* DROPDOWN MENU FOR MOBILE */
