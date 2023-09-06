@@ -103,7 +103,7 @@ body {
     padding-top: 30%;
     padding-left: 10%;
     padding-right: 10%;
-    background-image: url("main-images/tyler-nix-cold-coffee-unsplash.jpg");
+    background-image: url('main-images/tyler-nix-cold-coffee-unsplash.jpg');
     max-height: 80vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -676,14 +676,14 @@ input, textarea {
     #home .mobile-hide {
         display: none;
       }
-
+/*
       .slideUp {
         animation: slideUp500 2.5s forwards;
     }
     @keyframes slideUp500 {
       0%    { transform: translate3d(0,500px,0); }
       100%  { transform: translate3d(0,0,0); }
-  }
+  }*/
 
       .nav-mobile {
         padding: 0;
