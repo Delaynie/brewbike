@@ -682,7 +682,15 @@ input, textarea {
     }
     @keyframes slideUp500 {
       0%    { transform: translate3d(0,500px,0); }
-      100%  { transform: translate3d(0,0,0); }
+      100%  { transform: translate3d(0,0,0);    }
+  }
+
+  .slideUpPic {
+      animation: slideUp501 2s forwards;
+  }
+  @keyframes slideUp501 {
+    0%      { transform: translate3d(0,500px,0); }
+    100%    { transform: translate3d(0,0,0);    }
   }
 
       .nav-mobile {
