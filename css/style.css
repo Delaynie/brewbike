@@ -103,7 +103,7 @@ body {
     padding-top: 30%;
     padding-left: 10%;
     padding-right: 10%;
-    background-image: url('main-images/tyler-nix-cold-coffee-unsplash.jpg');
+    background-image: url('/main-images/tyler-nix-cold-coffee-unsplash.jpg');
     max-height: 80vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -155,7 +155,7 @@ body {
 }
 
 .bg-drink {
-    background-image: url('seasonal-images/daria-rudyk-cocoa-unsplash.jpg');
+    background-image: url('/seasonal-images/daria-rudyk-cocoa-unsplash.jpg');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -166,7 +166,7 @@ body {
 }
 
 .bg-about {
-    background-image: url('coffee-images/jacob-bentzinger-coffee-unsplash.jpg');
+    background-image: url('/coffee-images/jacob-bentzinger-coffee-unsplash.jpg');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -216,7 +216,7 @@ body {
 }
 
 .bg-bean {
-    background-image: url('karsten-winegeart-coffee-unsplash.jpg');
+    background-image: url('/karsten-winegeart-coffee-unsplash.jpg');
     background-position: center;
     background-size: cover;
     color: rgb(229, 226, 226);
