@@ -199,6 +199,7 @@ body {
 .margin-b {margin-bottom: 2%;}
 .margin-t {margin-top: 3%;}
 .line-height { line-height: normal;}
+.centered { text-align: center;}
 
 .bg-light {
     color: rgb(2, 70, 8);
@@ -332,6 +333,19 @@ input, textarea {
   form [class*=col-] {
     padding: 5px;
   }
+
+  .subscribe {
+      color: rgb(254,250,224);
+      padding-top: 5%;
+      padding-bottom: 3%;
+  }
+  .subscribe h3 {
+      font-size: 28px;
+      padding-bottom: 2%;
+  }
+  .subscribe h4 {
+      font-size: 20px;
+  }
   
   .email-signup input {
     width: 30%;
@@ -339,6 +353,23 @@ input, textarea {
     max-width: 250px;
     margin-top:1rem;
   }
+  .email-signup .button-solid {
+      width: 30%;
+      max-width: 250px;
+      font-size: 1rem;
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.8em;
+      text-decoration: none;
+      height: auto;
+  }
+  /*
+  .email-signup .button-solid {
+    padding: 0.8em;
+    border-radius: 0;
+    font-size: 1rem;
+    text-decoration: none;
+  }*/
   
   form .button-solid {
     width: 100%;
